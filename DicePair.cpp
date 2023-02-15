@@ -4,7 +4,7 @@
 
 void DicePair::roll()
 {
-	//srand(time(NULL));
+	
 	m_dice1 = rand() % 6 + 1;
 	m_dice2 = rand() % 6 + 1;
 }
