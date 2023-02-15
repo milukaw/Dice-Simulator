@@ -17,7 +17,6 @@ Dice::Dice(const Dice& orgD)
 
 void Dice::roll()
 {
-
 	m_points = rand() % 6 + 1;
 }
 
