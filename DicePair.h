@@ -12,7 +12,7 @@ private:
 public:
 
 	void roll();
-	int get();
+	int get()const;
 
 	DicePair& operator = (const DicePair& dicePair);
 

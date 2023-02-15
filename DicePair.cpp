@@ -9,7 +9,7 @@ void DicePair::roll()
 	m_dice2 = rand() % 6 + 1;
 }
 
-int DicePair::get()
+int DicePair::get() const
 {
 	return m_dice1 + m_dice2;
 }
